@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test po informatike</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<style type="text/css">area{cursor: pointer;}</style>
+
+</head>
+<body>
+<div class="page-header">
+<div class="container">
+	<h1>Тест по информатике</h1>
+	
+	</div>
+</div>
+<div class="container">
+	<form action="testApp.jsp" method="post">
+		<h4>Вопрос 1</h4>
+		Чему равен 1 Кбайт(число байт)?<br/> 
+		<input type="text" name="q1" autocomplete="off" />
+		<h4>Вопрос 2</h4>
+		Какое устройство обладает наибольшей
+		скоростью обмена информацией?<br/> 
+		<input type="radio" name="q2" value="cdrom" checked> CD-ROM<br> 
+		<input type="radio" name="q2" value="hdd"> HDD<br> 
+		<input type="radio" name="q2" value="floppy"> Floppy<br>
+		<input type="radio" name="q2" value="ram"> RAM<br>
+		<h4>Вопрос 3</h4>
+		В целях сохранения информации гибкие диски необходимо оберегать от<br>
+		<input type="checkbox" name="q31" value="holod"> Холода<br>
+  		<input type="checkbox" name="q32" value="grazi"> Загрязнения <br>
+  		<input type="checkbox" name="q33" value="magnit"> Магнитных полей <br>
+  		<input type="checkbox" name="q34" value="davl"> Перепадов атмосферного давления<br>
+  		<h4>Вопрос 4</h4>
+		Растровый графический редактор предназначен для<br>
+		<input type="checkbox" name="q41" value="certej"> создания чертежей<br>
+  		<input type="checkbox" name="q42" value="graf"> построения графиков<br>
+  		<input type="checkbox" name="q43" value="diagram"> построения диаграмм<br>
+  		<input type="checkbox" name="q44" value="risunok"> создания и редактирования рисунков<br>
+  		<h4>Вопрос 5</h4>
+		На материнской плате персонального компьютера устанавливается<br>
+		<input type="checkbox" name="q51" value="ram"> RAM<br>
+  		<input type="checkbox" name="q52" value="cpu"> центральный процессор<br>
+  		<input type="checkbox" name="q53" value="pci"> слот расширения<br>
+  		<input type="checkbox" name="q54" value="card"> карта расширения<br>
+  		<input type="checkbox" name="q55" value="bus"> одна из шин компьютера<br>
+  		<h4>Вопрос 6</h4>
+  		Форматированием дискеты называется процесс<br>
+  		<input type="radio" name="q6" value="log" checked> разбиения ее на логические диски<br> 
+		<input type="radio" name="q6" value="vol"> определения ее объема<br> 
+		<input type="radio" name="q6" value="dev"> выделения логических устройств<br>
+		<input type="radio" name="q6" value="sect"> разбиения ее поверхности на сектора и дорожки<br>
+		<h4>Вопрос 7</h4>
+		Названия языка программирования и имя первого программиста в мире<br>
+		<input type="text" name="q7" autocomplete="off" /><br>
+		<h4>Вопрос 8</h4>
+		Основными элементами человеко – машинного интерфейса являются<br>
+		<select  name="GUI" >
+			<option value="inout">операторы ввода/вывода</option>
+			<option value="catfile">каталог и файлы</option>
+			<option value="menu">меню и диалоговое окно</option>
+			<option value="command">команды и операнды</option>
+		</select>
+<!-- 		<input type="radio" name="q8" value="cdrom" checked> операторы ввода/вывода<br>  -->
+<!-- 		<input type="radio" name="q8" value="hdd"> каталог и файлы<br>  -->
+<!-- 		<input type="radio" name="q8" value="floppy"> меню и диалоговое окно<br> -->
+<!-- 		<input type="radio" name="q8" value="ram"> команды и операнды<br> -->
+		<h4>Вопрос 9</h4>
+		
+		Какое устройство обладает наименьшей скоростью обмена информацией<br>
+
+<img id="Image-Maps-Com-image-maps-2016-11-22-140444" src="http://www.image-maps.com/m/private/0/nevvu23v6eurt02urcc4ohsbn4_map.png" border="0" width="848" height="534" orgWidth="848" orgHeight="534" usemap="#image-maps-2016-11-22-140444" alt="" />
+<map name="image-maps-2016-11-22-140444" id="ImageMapsCom-image-maps-2016-11-22-140444">
+<area  alt="" title="hdd" onclick="var answer = $(this).attr('title'); $('.hidden').attr('value', answer); alert('Ответ принят!');" shape="rect" coords="27,27,434,297" style="outline:none;" target="_self"     />
+<area  alt="" title="floppy" onclick="var answer = $(this).attr('title'); $('.hidden').attr('value', answer); alert('Ответ принят!');" shape="rect" coords="466,19,841,294" style="outline:none;" target="_self"     />
+<area  alt="" title="cdrom" onclick="var answer = $(this).attr('title'); $('.hidden').attr('value', answer); alert('Ответ принят!');" shape="rect" coords="25,316,388,521" style="outline:none;" target="_self"     />
+<area  alt="" title="ram" onclick="var answer = $(this).attr('title'); $('.hidden').attr('value', answer); alert('Ответ принят!');" shape="rect" coords="417,319,835,529" style="outline:none;" target="_self"     />
+</map>
+<input class="hidden" type="hidden" name="q9" value="" />
+<h4>Вопрос 10</h4>
+Первая в мире сеть, прототип современного Интернета<br>
+<input type="text" name="q10" autocomplete="off" />
+
+	<h4>Вопрос 11</h4>
+	Выберите вариант, в котором объемы памяти расположены в порядке убывания<br>
+	<input type="radio" name="q11" value="one" >1010 байт. 2 байта. 1 Кбайт. 20 бит. 10 бит<br>
+	<input type="radio" name="q11" value="two" >1 Кбайт. 1010 байт. 20 бит. 2 байта. 10 бит<br>
+	<input type="radio" name="q11" value="three" >1010 байт. 1 Кбайт. 2 байта. 20 бит. 10 бит<br>
+	<input type="radio" name="q11" value="four" >1010 байт. 1 Кбайт. 20 бит. 2 байта. 10 бит<br>
+
+ <br><br>
+<input type="submit" name="submit" value="Завершить тест" class="btn btn-primary" />
+</form>
+<br><br>
+</div>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+</body>
+</html>
